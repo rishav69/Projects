@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container{
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.bar{
+    width: 20px;
+    background-color: black;
+    margin: 1px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: #e4e4e4;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(41, 41, 41);
+    color: white;
+    transition: 0.2s;
+}

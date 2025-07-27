@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Visualizer</title>
+    <link rel="stylesheet" href="search.css">
+</head>
+
+<body>
+    <h1>Search Visualizer</h1>
+
+    <div id="controls">
+        <input type="number" id="targetInput" placeholder="Enter target (1-100)" />
+        <button onclick="init()">Generate</button>
+        <button onclick="linear()">Linear Search</button>
+        <button onclick="binary()">Binary Search</button>
+    </div>
+
+    <div id="container"></div>
+    <div id="result"></div>
+
+    <script src="search.js"></script>
+</body>
+
+</html>
